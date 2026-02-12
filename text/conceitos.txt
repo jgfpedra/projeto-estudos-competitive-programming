@@ -1,0 +1,12 @@
+A prefix of an array is a subarray consisting of the first   elements of the array, for some integer
+A suffix of an array is a subarray consisting of the last   elements of the array, for some integer
+--> para resolver
+  --> pegar min e max em vets aux relacionando a posicao com os respectivos valores da comparacao
+  --> comparar se o valor de tal posicao eh igual a pos em pre ou suf 
+
+A subsequence of a string is a set of characters in. Note that these characters do not have to be adjacent.
+A substring of a string is a contiguous group of characters in. Note that these characters must be adjacent.
+
+C++:
+vector<x> a(n, INT_MAX) --> preenche o vetor de n elementos com INT_MAX
+

@@ -1,0 +1,1 @@
+g++ -std=c++23 -O2 -Wall -Wextra -Wshadow -Wconversion -DONLINE_JUDGE your_code.cpp -o your_code
