@@ -10,3 +10,18 @@ A substring of a string is a contiguous group of characters in. Note that these 
 C++:
 vector<x> a(n, INT_MAX) --> preenche o vetor de n elementos com INT_MAX
 
+------------------------------
+1362.cpp
+  ----------
+  swap() --> troca variaveis
+  ----------
+  pegar valor fora dos multiplos de 2
+  serao corretos somente se tiverem os mesmos
+  caso sejam, dividir maior por menor
+  verificar quantidade de ops para torna-lo 0
+    --> se b > (maior divisor - 8) --> dividir num /8 ate nao ser divisivel e acrescentar na contagem
+    --> se b > 1 --> adicionar ++contador
+------------------------------
+2161
+  ----------
+
