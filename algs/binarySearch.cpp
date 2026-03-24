@@ -4,14 +4,15 @@ using namespace std;
 #define fastio ios_base::sync_with_stdio(false),cin.tie(NULL),cout.tie(NULL)
 
 int binarySearch(vector<int> A, int l, int r, int v){
+  if(l > r)
+    return -1;
   int mid = (int) floor((l + r)/2);
   if(A[mid] == v)
     return mid;
   if(A[mid] > v)
-    return binarySearch(A, l, mid, v);
+    return binarySearch(A, l, mid - 1, v);
   else
-    return binarySearch(A, mid, r, v);
-  return -1;
+    return binarySearch(A, mid + 1, r, v);
 }
 
 int main(){
